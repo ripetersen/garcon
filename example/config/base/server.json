@@ -1,0 +1,4 @@
+{
+    "port": 8080,
+    "setup": "./src/setup.js"
+}

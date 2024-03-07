@@ -1,0 +1,4 @@
+{
+  "env": "$NODE_ENV",
+  "build_date": "_BUILD_DATE_"
+}

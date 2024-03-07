@@ -1,0 +1,32 @@
+{
+  "name": "pennant",
+  "version": "1.0.0",
+  "type": "module",
+  "author": "pennant developers",
+  "license": "SEE LICENSE IN LICENSE.md",
+  "exports": {
+    "./aboutController": "./aboutController.js",
+    "./echoController": "./echoController.js",
+    "./shutdownController": "./shutdownController.js",
+    "./authMiddleware": "./authMiddleware.js",
+    "./jab": "./jsb.js",
+    "./jwtService": "./jwtService.js",
+    "./itemStore": "./itemStore.js",
+    "./oauth20Service": "./oauth20Service.js",
+    "./oauth20Storage": "./oauth20Storage.js",
+    "./server": "./server.js",
+    "./services": "./services.js",
+    "./config": "./config.js"
+  },
+  "dependencies": {
+    "argon2": "^0.28.2",
+    "jsdoc": "^4.0.2",
+    "koa": "^2.13.4",
+    "koa-bodyparser": "^4.3.0",
+    "node-fetch": "^3.0.0",
+    "node-gyp-build": "^4.3.0",
+    "nodemailer": "^6.7.0",
+    "path-to-regexp": "^6.2.0",
+    "uuid": "^8.3.2"
+  }
+}

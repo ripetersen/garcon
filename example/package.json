@@ -1,0 +1,21 @@
+{
+  "name": "example_server",
+  "version": "0.0.1",
+  "description": "",
+  "author": "Your Name Here",
+  "license": "SEE LICENSE IN LICENSE.md",
+  "scripts": {
+    "lint": "eslint src",
+    "doc": "jsdoc -c jsdoc_conf.json -d doc/api src",
+    "start": "node node_modules/garcon/main.js --start",
+    "test": "NODE_ENV=test NODE_PATH=test NODE_OPTIONS=--experimental-vm-modules jest --verbose --no-cache --coverage",
+    "debug": "node --inspect=0.0.0.0 node_modules/garcon/main.js --start",
+    "debugbreak": "node --inspect=0.0.0.0 --inspect-brk node_modules/garcon/main.js --start",
+    "repl": "node --inspect=9999 --experimental-repl-await node_modules/garcon/main.js --repl"
+  },
+  "devDependencies": {
+  },
+  "dependencies": {
+    "garcon": "../src"
+  }
+}
