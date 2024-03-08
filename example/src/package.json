@@ -3,5 +3,8 @@
   "version": "1.0.0",
   "type": "module",
   "author": "Your Name Here",
-  "license": "SEE LICENSE IN LICENSE.md"
+  "license": "SEE LICENSE IN LICENSE.md",
+  "dependencies": {
+    "garcon": "../../src"
+  }
 }

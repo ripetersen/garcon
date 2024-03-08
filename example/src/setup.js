@@ -21,7 +21,10 @@ export default async function setup(app, server, middleware, shutdownListener) {
   app.use(garcon.dont_cache_200)
 
   // ping for health check
-  app.use(garcon.ping)
+  const ping = garcon.ping('/ping')
+  console.log(ping)
+
+  app.use(ping);
 
   // CORS
   app.use(garcon.CORS)
